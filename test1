@@ -1,0 +1,10 @@
+let fruits = ["Apple", "Banana", "Cherry"];
+
+fruits.push("Orange"); // Adds "Orange" to the end
+console.log(fruits);   // Output: ["Apple", "Banana", "Cherry", "Orange"]
+
+fruits.pop();          // Removes the last element
+console.log(fruits);   // Output: ["Apple", "Banana", "Cherry"]
+
+fruits.shift();        // Removes the first element
+console.log(fruits);   // Output: ["Banana", "Cherry"]
